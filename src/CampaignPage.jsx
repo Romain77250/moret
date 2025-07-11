@@ -1,16 +1,19 @@
 import React from "react";
 
-export default function CampaignPage() {
+export default function PageCampagne() {
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>Moret 2026 – Notre avenir, maintenant</h1>
+      <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>
+        Moret 2026 – Notre avenir, maintenant
+      </h1>
       <p>Avec Romain Niclot, donnons un nouveau souffle à Moret-Loing-et-Orvanne.</p>
 
       <h2 style={{ marginTop: "2rem" }}>Qui suis-je ?</h2>
       <p>
-        Je m'appelle Romain Niclot, j'ai 21 ans et je suis né à Moret-Loing-et-Orvanne. Étudiant en master de gestion de
-        la supply chain, je suis passionné par ma ville et déterminé à la faire évoluer avec ses habitants. Mon
-        engagement repose sur l’écoute, la transparence et l’action concrète.
+        Je m’appelle Romain Niclot, j’ai 21 ans et je suis né à Moret-Loing-et-Orvanne.
+        Étudiant en master de gestion de la supply chain, je suis passionné par ma ville
+        et déterminé à la faire évoluer avec ses habitants. Mon engagement repose sur
+        l’écoute, la transparence et l’action concrète.
       </p>
 
       <h2 style={{ marginTop: "2rem" }}>Notre projet pour Moret</h2>
@@ -23,7 +26,7 @@ export default function CampaignPage() {
       </ul>
 
       <h2 style={{ marginTop: "2rem" }}>Participer</h2>
-      <p>Rejoignez l'équipe, proposez une idée ou suivez-nous sur les réseaux !</p>
+      <p>Rejoignez l’équipe, proposez une idée ou suivez-nous sur les réseaux !</p>
     </div>
   );
 }
